@@ -1,0 +1,104 @@
+.headerFont {
+  font-family: "Indie Flower", cursive;
+  font-size: 5.5rem;
+  padding: 2%;
+}
+.headerCenter {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 33px;
+  right: 90px;
+  /* background-color: black; */
+  color: black;
+  opacity: 1;
+  font-size: 2rem;
+}
+
+.close:hover {
+  background: transparent;
+  opacity: 1;
+  text-shadow: 0px 0px 3px black;
+}
+
+.taskNoteStyle {
+  background-image: url(https://i.ibb.co/vYMqQpH/hiclipart-com-2.png);
+  background-position: center;
+  max-width: 400px;
+  min-width: 350px;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.taskNoteStyle:hover .hidden {
+  display: block;
+}
+
+.noteTidier {
+  width: 300px;
+  height: 277px;
+  border: 15px transparent green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.taskDetails {
+  text-align: center;
+  overflow: overlay;
+  max-height: 130px;
+  position: absolute;
+  top: 67px;
+  left: 49px;
+  padding-right: 17px;
+  max-width: 210px;
+}
+
+.TimeAndDateContainer {
+  display: grid;
+  justify-content: space-evenly;
+  position: relative;
+  top: 175px;
+  left: -65px;
+}
+
+body {
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+}
+input {
+  display: block;
+  margin: auto;
+}
+textarea {
+  width: 101%;
+}
+table {
+  max-width: 60%;
+  margin: auto;
+  background: url(https://images.template.net/wp-content/uploads/2014/06/42567177.jpg);
+  background-position-x: 25%;
+}
